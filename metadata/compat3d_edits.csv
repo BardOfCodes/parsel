@@ -1,0 +1,51 @@
+row_index,shape_id,category,request_type,edit_request,keep_fixed,edit_type,annotation_verified,remark
+0,270,bed,0,I want to make all the feet taller from the top while keeping the headboard as is.,1,0,1,NIL
+1,685,bench,0,I want to bring the legs closer together while keeping the backrest as is.,1,0,1,NIL
+2,1245,cabinet,0,I want to make the cabinet shorter by bringing the top panel downwards.,0,0,1,NIL
+3,1906,chair,0,I want to reduce the length of the legs from the top. Scale the backrest when required.,0,1,1,NIL
+4,3044,coat_rack,0,I want to shorten the coat rack from the top without changing the number of coat racks.,0,1,1,NIL
+5,3278,dresser,0,I want to make the central shelf wider in the left-right direction.,0,0,1,NIL
+6,3513,fan,0,I want to enlarge the fan motor box radially without changing the number of fan blades.,0,1,0,fan bracket rotation
+7,4052,ladder,0,I want to make the top step in the left right direction while keeping the bottom step as it is.,1,1,1,ref might be tricky
+8,4519,love_seat,0,I want to shorten the love seat along the left right direction by moving the armrests inwards. Keep the seat's frame and legs as it is.,1,0,1,NIL
+9,4653,ottoman,0,I want to move only the front right leg outwards while keeping the other legs fixed.,1,0,1,NIL
+10,5441,shelf,0,I want to contract the shelf by lowering the top panels. Keep the lowermost shelves as they are.,1,0,0,Trans sym + labels
+11,5764,sofa,0,I want to make the legs taller by extending their top sides.,0,0,1,some intersections might be tricky
+12,6079,stool,0,I want to lower the seat and scale the legs accordingly.,0,1,1,NIL
+13,6420,sun_lounger,0,"I want to shift the front legs towards the back, scaling the seat subsequently.",0,1,1,NIL
+14,6445,table,0,I want to radially expand the shelf while keeping the top frame as it is.,1,0,1,tricky
+15,7563,tray,1,I want to move the handles towards each other while keeping the bottom panel as it is.,1,0,1,NIL
+16,3787,gazebo,1,I want to make the pedestal wider radially.,0,0,1,NIL
+17,1137,bird_house,1,I want to extend the pedestal in the left-right direction while keeping the back panel as it is.,1,0,1,NIL
+18,7674,trolley,1,"I want to extend the top panel in the left right direction, rotating the legs subsequently.",,1,1,NIL
+19,227,bbq_grill,1,I want to move the top of the legs outwards in the front-back-direction.,0,0,1,NIL
+20,234,bbq_grill,1,I want to elongate the support by extending its top side further.,0,0,1,NIL
+21,3834,gazebo,1,I want to shorten the pillars by lowering their top side and elongating the roof.,0,1,0,Pillars
+22,1148,bird_house,1,"I want to make the pedestal thicker by extending it upwards, subsequently scaling the house panels while keeping the roof fixed.",1,1,1,NIL
+23,7699,trolley,1,I want to lower the top panel while keeping only the bottom support as it is.,1,0,1,NIL
+24,6471,table,0,I want to move the front legs towards the back while keeping the top panel as it is.,1,0,1,NIL
+25,7539,tray,1,"I want to make the top frame taller by extending it upwards, while keeping the handles as they are.",1,0,1,NIL
+26,6111,stool,0,I want to radially scale the seat outwards.,0,0,0,Rotation amount
+27,6409,sun_lounger,0,I want to shift the front legs backwards while keeping everything related to the backrest as it is.,1,0,1,NIL
+28,5465,shelf,0,I want to bring the front frame forward while keeping the back panel fixed.,1,0,1,NIL
+29,5762,sofa,0,I want to contract the sofa in the left-right direction while retaining the number of legs.,0,1,1,NIL
+30,4532,love_seat,0,I want to make the back legs taller by extending their tops while keeping the front legs fixed.,1,0,1,NIL
+31,4663,ottoman,0,I want to contract the seat radially while keeping the pedestal as it is.,1,0,0,intersection
+32,4129,lamp,0,I want to make the lamp support shorter from the top and subsequently move the rest of the lamp downwards.,0,1,1,NIL
+33,4514,love_seat,0,I want to make the armrests shorter from the top while keeping everything else fixed.,1,0,1,Check
+34,3516,fan,0,I want to make the fan blades wider on the outside.,0,0,0,Fan
+35,4066,ladder,0,I want to make the ladder steps wider in the left-right direction,0,0,1,NIL
+36,3071,coat_rack,0,I want to make the hangers radially wider.,0,0,1,bbox strange
+37,3281,dresser,0,"I want to move the top panel's front upwards while scaling the doors, dividers and side panels. Keep the bottom panel as it is.",1,0,1,NIL
+38,1291,cabinet,0,I want to contract the central drawer in the left right direction while keeping the top and bottom panels fixed.,1,0,1,NIL
+39,1959,chair,0,I want to scale the backrest in the left-right direction while keeping the front legs as they are.,1,0,1,NIL
+40,258,bed,0,"I want to shift the back legs outwards, while keeping the front legs as is.",1,0,0,tricky bbox
+41,725,bench,0,I want to tilt the backrest forward.,0,0,1,NIL
+42,6452,table,0,I want to shorten the table in the left right direction while retaining the number of drawers and handles.,0,1,1,NIL
+43,1962,chair,0,I want to make the seat longer by extending its front side forward and subsequently only rotating the front legs.,0,1,0,label front legs
+44,1272,cabinet,0,"I want to make the the top panel shorter in the left right direction, only tilting the side panels if needed.",0,1,1,tricky
+45,5765,sofa,0,"I want to move the left armrest further to the left, while keeping the right armrest and right legs fixed.",1,0,1,NIL
+46,1263,cabinet,0,"I want to make the cabinet taller by moving the top panel up, while keeping the bottom panel fixed.",1,0,1,NIL
+47,1966,chair,0,I want to make the legs shorter from the top,0,0,1,NIL
+48,6444,table,0,I want to increase the number of legs in the Table.,0,0,1,the bbox is weird
+49,4520,love_seat,0,I want to raise the top of the front side of the seat support while keeping the armrests fixed.,1,0,1,Tricky

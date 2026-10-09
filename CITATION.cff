@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use ParSEL, please cite the ACM Transactions on Graphics paper."
+title: "ParSEL: Parameterized Shape Editing with Language"
+type: software
+license: MIT
+version: 0.1.0
+authors:
+  - family-names: Ganeshan
+    given-names: Aditya
+  - family-names: Huang
+    given-names: Ryan Y.
+  - family-names: Xu
+    given-names: Xianghao
+  - family-names: Jones
+    given-names: R. Kenny
+  - family-names: Ritchie
+    given-names: Daniel
+repository-code: "https://github.com/BardOfCodes/parsel"
+url: "https://bardofcodes.github.io/parsel/"
+preferred-citation:
+  type: article
+  title: "ParSEL: Parameterized Shape Editing with Language"
+  authors:
+    - family-names: Ganeshan
+      given-names: Aditya
+    - family-names: Huang
+      given-names: Ryan
+    - family-names: Xu
+      given-names: Xianghao
+    - family-names: Jones
+      given-names: R. Kenny
+    - family-names: Ritchie
+      given-names: Daniel
+  journal: ACM Transactions on Graphics
+  volume: 43
+  issue: 6
+  year: 2024
+  month: 11
+  doi: "10.1145/3687922"

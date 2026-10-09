@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test-output/
+.coverage
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+parsel_api_calls.db
+*.zip
+.DS_Store

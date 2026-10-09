@@ -1,0 +1,53 @@
+row_index,dataset_index,shape_id,category,shapenet_model_id,edit_request
+0,0,13749,Lamp,3781aa0aaed95b8049244b68aadec703,I want to move only the bottom ends of the legs further out and keep the other parts as they are.
+1,1,14229,Lamp,12d03f06746eb49990c2e24416edfe5b,I want to shorter the lamp chains by moving their bottom ends up.
+2,2,14259,Lamp,cb4b887b5acd27cde76bc197b3a3ffc0,I want to make the lamp cover and widerframe wider in the four cardinal directions without changing the body or base.
+3,3,15668,Lamp,6e1fe96adbb5ffba8bae2d07dadd1b5d,I want to make the lamp post thicker at the top radially.
+4,4,15894,Lamp,83254a427fd8309a36ca19fb57d01d2d,I want to contract the lamp body by moving its base upwards. Elongate the base as needed.
+5,5,16550,Lamp,b6d6a772087d456a3dfad56d2a4eefcd,I want to make the lamp shade longer be extending its lower end downwards.
+6,6,15094,Lamp,3f7eb5ef5d304040d847cb32379eb854,"I want to increase the number of lamp arm, bulb and covers"
+7,7,177,Chair,d8358969dad764edbb6f5a9e4b6b8b34,I want to make the front legs shorter from the top without changing the back legs.
+8,8,2236,Chair,19861e56a952fe97b8230112437913fd,I want to make the chair wider.
+9,9,2431,Chair,215e557db4c4bb5d837b757304479228,I want to make the chair seat thicker.
+10,10,2482,Chair,22ff2267856b5d369158e0f216b27548,"I want to tilt the front of the armrests downwards and scale their vertical arm bars if required, while keeping the back, seat and legs as they are."
+11,11,2683,Chair,2a8d87523e23a01d5f40874aec1ee3a6,I want to tilt the backrest further to the back.
+12,12,2683,Chair,2a8d87523e23a01d5f40874aec1ee3a6,I want to make each of the bars between the legs thicker.
+13,13,35352,Chair,6f36520144753550f91663a74ccd2338,I want to make the armrests taller by extending the top faces of the vertical bars upwards.
+14,14,37623,Chair,4fd20c1142b642221403e6cccbe91852,I want to make the chair shorter by shortening the legs and bringing the rest of the chair downwards.
+15,15,42395,Chair,bd5eb0bfad19c8d9cd431573238602d,I want to tilt the top half of the armrests outwards.
+16,16,42404,Chair,bdacb728b23fc758fc0035da39bd5e1,"I want to make the bar stretcher between the runners shorter along the left-right direction. When required, tilt the legs instead of moving them entirely."
+17,17,42446,Chair,bebd1aac01d747e82500a3366a96c301,I want to tilt the backrest further to the back.
+18,18,43136,Chair,d3213947dec793de213c3458a0fe5598,I want to lower the seat of the chair.
+19,19,44002,Chair,ea3723766e96331ff91663a74ccd2338,"I want to shorten the height of the legs, brings the rest of the chair downwards."
+20,20,44002,Chair,ea3723766e96331ff91663a74ccd2338,"I want to make the chair seat and back wider without changing the mechanical control, or the central support."
+21,21,277,Chair,511e6440fad9bfa81fc8b86678ea0c8b,I want to make the chair wider.
+22,22,26063,Table,943d786e2df9251ec76aead7da70af41,"I want to make the legs shorter from the top, making the table top thicker as the legs are scaled."
+23,23,19288,Table,15676a89e39262ea852bb95bccedfda9,I want to contract the table top along the left-right direction.
+24,24,19389,Table,17624075a52c9b15cab01e89f60c9290,I want to make the table wider along the front-back direction by lengthening the connectors. Increase the count of components as required.
+25,25,26235,Table,9823679747e563b4d42b9650f19dd425,I want to make the table top wider in both left-right and front-back directions. I want to increase the number of legs as we do that.
+26,26,26772,Table,190028e65867076ee12186cc8c5022c7,"I want to contract the table in the left-right direction, removing the legs as required."
+27,27,26808,Table,7a702fc01ec83c36b93dc42f7dcef6a,"I want to move the front legs inwards along the left-right direction, while keeping the back legs fixed. Scale the other parts."
+28,28,28592,Table,c76b1d97bda153f51226a0a31e4f771f,"I want to move the legs closer together (along the left-right direction), but without editing the tabletop."
+29,29,28675,Table,c9a9feb520968bc79ccce4c6d5bb195f,"I want to make the shelf wider in left-right and front-back directions, without changing the table board."
+30,30,24753,Table,776732bc127417f28a7219d923f4718,"I want to contract the table by moving its left vertical panel to the right side. Do not change the right side panel, central panel or the bottom panel."
+31,31,25716,Table,8c2ec4b15289d88cc5d1c45cadcaa3eb,"I want to make the foots taller by moving their top parts upwards. I want to move the drawers, and shelves upwards accordingly as well. However, I want to keep the top board as it is."
+32,32,45468,StorageFurniture,27dd0e22a3151fbbd8d04e687db9eb6b,I want to make the shelves wider.
+33,33,47953,StorageFurniture,a9bfa9259f31ef9fde650492e45fb14f,I want to open the cabinet doors with their handles towards the front by rotating them outwards from their hinges. The hinges are on the outer sides. Keep the rest fixed.
+34,34,46955,StorageFurniture,7969fbbc3d46b46e4c3aee8e9d3a6ffa,I want to expand the top cabinet vertically by extending its lower part while contracting the bottom cabinet. Move the handles and keep all the panels and shelves fixed.
+35,35,45087,StorageFurniture,14b5e16ba851e17ac59350d819542ec7,I want to open the front cabinet door along with its handle by rotating it forward about its left face. Keep the rest fixed.
+36,36,47108,StorageFurniture,8032a28768c3f22a7843fb4efdc19510,I want to make the storage unit shallower by moving its back panel towards the front while keeping the all the drawers fixed.
+37,37,45378,StorageFurniture,1ff28690a2ba31e4da5feafe6f1c8fc,I want to open the cabinet doors and their handles towards the front by rotating them outwards from their hinges. The hinges are on the outer sides. Keep the rest fixed.
+38,38,45468,StorageFurniture,27dd0e22a3151fbbd8d04e687db9eb6b,I want to make the front of the shelves wider along the left-right direction while keeping the back panel fixed.
+39,39,46395,StorageFurniture,55692507997f7884edd435e02f1ecb,I want to shorten the storage unit by lowering its top panel and removing shelfs in between if required. Keep the other panels and doors fixed.
+40,40,45687,StorageFurniture,2cd6ee7e592939a9824662341ce2b233,I want to move the drawer and its handle to the front out of the storage furniture without changing other parts.
+41,41,45951,StorageFurniture,3c519e2bb9f20e284c3aee8e9d3a6ffa,I want to expand the storage unit in the left-right direction.
+42,42,45687,StorageFurniture,2cd6ee7e592939a9824662341ce2b233,I want to make the bottom panel wider from the right side. I want to keep the cabinet door and drawer as it is.
+43,43,12748,Bed,c9eb8864f33152a3e09520ec2bf55884,I want to widen the bed in the left-right direction.
+44,44,10370,Bed,92e4d52351791ce9d9ba459409ec63ed,"I want to make the bed shorter by pushing its front back. Keep the ladder and the rungs fixed, and the parts at the back side fixed."
+45,45,10391,Bed,a3baf2c091f1d89276a8f34f63bf4ef6,"I want to increase the gap between the lower and upper beds by moving the upper bed surface further up, while keeping the lower bed and legs as they are."
+46,46,12502,Bed,b7abde250c295574d26ae70d41aa7c7b,I want to make the bed longer in the front-back direction.
+47,51,12771,Bed,cea6fe3942aad10f529a225c2959bf7d,I want to bring the horizontal bed frame downwards.
+48,48,11746,Bed,5f9dd5306ad6b3539867b7eda2e4d345,I want contract the bed by bringing its back to the front. Keep everything at the front fixed.
+49,49,11746,Bed,5f9dd5306ad6b3539867b7eda2e4d345,I want to make the ladder wider by moving the back ladder bar further to the back. Keep everthing apart from than the back ladder and rungs fixed.
+50,50,12168,Bed,806145e92798a35f15dd7d7985e749c1,I want to expand the bed by moving its left side surface further to the left. Keep the parts on the right side fixed.
+51,47,12514,Bed,b928b7904901c8849abd6ac8761170b2,I want to make the bed taller by lengthening the bed posts. Please do not increase the number of bar stretchers.

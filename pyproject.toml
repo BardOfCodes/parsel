@@ -1,0 +1,100 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parsel"
+version = "0.1.0"
+description = "Parameterized 3D shape editing from natural language"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Aditya Ganeshan"},
+    {name = "Ryan Y. Huang"},
+    {name = "Xianghao Xu"},
+    {name = "R. Kenny Jones"},
+    {name = "Daniel Ritchie"},
+]
+keywords = [
+    "3d",
+    "computer-graphics",
+    "language-models",
+    "shape-editing",
+    "symbolic-computation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "numpy==1.26.4",
+    "scipy==1.15.3",
+    "sympy==1.12",
+]
+
+[project.optional-dependencies]
+io = [
+    "compas",
+    "hausdorff",
+    "networkx",
+    "open3d==0.18.0",
+    "pytorch3d",
+    "torch==2.2.2",
+    "trimesh",
+]
+prompting = [
+    "anthropic==0.21.3",
+    "httpx<0.28",
+    "openai==1.3.5",
+]
+real-data-test = [
+    "open3d==0.18.0",
+    "torch==2.2.2",
+]
+visualization = [
+    "open3d==0.18.0",
+    "pymeshlab",
+    "torch==2.2.2",
+    "trimesh",
+]
+visualization-test = [
+    "open3d==0.18.0",
+    "torch==2.2.2",
+]
+viewer = [
+    "open3d==0.18.0",
+    "torch==2.2.2",
+]
+test = [
+    "anthropic==0.21.3",
+    "httpx<0.28",
+    "openai==1.3.5",
+    "pytest==8.3.5",
+]
+
+[project.urls]
+Homepage = "https://bardofcodes.github.io/parsel/"
+Paper = "https://doi.org/10.1145/3687922"
+Repository = "https://github.com/BardOfCodes/parsel"
+Issues = "https://github.com/BardOfCodes/parsel/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+parsel = ["prompting/prompts/api_docs/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "real_data: acceptance tests that require local PartNet or Compat3D data",
+    "visualization: headless tests that require Open3D and PyTorch",
+]
