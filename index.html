@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="description"
@@ -7,32 +7,14 @@
   <meta name="keywords" content="ParSEL, Parameterized Procedural Editing 3D Shapes with Language">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ParSEL: Parameterized Shape Editing with Language</title>
+  <link rel="canonical" href="https://bardofcodes.github.io/parsel/">
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" type="image/png" href="./static/data_3d/models/03001627_chair_126.png">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
-  
-  <!-- For viewing 3D models -->
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-  <!-- Import the component -->
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
-
-
-  <script src="./static/js/video_comparison.js"></script>
+  <link rel="icon" type="image/png" href="./static/images/icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
@@ -55,7 +37,11 @@
             </div>
             <div class="column ml-2 mr-2">
             <span class="author-block">
-              <a href="https://ryanhuang.dev/">Ryan H. Huang</a></span>
+              <a href="https://ryanhuang.dev/">Ryan Y. Huang</a></span>
+            </div>
+            <div class="column ml-2 mr-2">
+            <span class="author-block">
+              <a href="https://xxh43.github.io/">Xianghao Xu</a></span>
             </div>
             <div class="column ml-2 mr-2">
             <span class="author-block">
@@ -63,7 +49,7 @@
             </div>
             <div class="column ml-2 mr-2">
             <span class="author-block">
-              <a href="https://dritchie.github.io/">Daniel Ritchie</a>
+              <a href="https://dritchie.github.io/">Daniel Ritchie</a></span>
             </div>
             </div>
           </div>
@@ -71,13 +57,13 @@
             <span class="author-block">Brown University</span>
           </div>
           <div class="is-size-4 publication-authors mt-3">
-            <p>  Siggraph Asia, 2024 (Journal) </p>
+            <p>SIGGRAPH Asia 2024 · ACM Transactions on Graphics</p>
           </div>
 
           <div class="columns has-text-centered is-centered is-mobile mt-3 mb-0 is-multiline">
             <div class="column ml-2 mr-2 item">
                 <a href="https://bardofcodes.github.io/papers/parsel/paper.pdf">
-                    <img src="./static/images/paper.jpg" style="max-height: 80px;">
+                    <img src="./static/images/paper.jpg" alt="ParSEL paper" style="max-height: 80px;">
                 </a>
                 <a href="https://bardofcodes.github.io/papers/parsel/paper.pdf">
                     <h4> Paper  (36 MB)</h4>
@@ -85,7 +71,7 @@
             </div>
               <div class="column ml-2 mr-2 item">
                   <a href="https://bardofcodes.github.io/papers/parsel/paper_lowres.pdf">
-                      <img src="./static/images/paper.jpg" style="max-height: 80px;">
+                      <img src="./static/images/paper.jpg" alt="Low-resolution ParSEL paper" style="max-height: 80px;">
                   </a>
                   <a href="https://bardofcodes.github.io/papers/parsel/paper_lowres.pdf">
                       <h4> Low Res (2.6 MB) </h4>
@@ -93,37 +79,42 @@
               </div>
             <div class="column ml-2 mr-2 item">
                 <a href="https://bardofcodes.github.io/papers/parsel/supp.pdf">
-                    <img src="./static/images/supp.jpg" style="max-height: 80px">
+                    <img src="./static/images/supp.jpg" alt="Supplementary material" style="max-height: 80px">
                 </a>
                 <a href="https://bardofcodes.github.io/papers/parsel/supp.pdf">
                     <h4> Supp. </h4>
                 </a>
             </div>
             <div class="column ml-2 mr-2 item">
-                <a href="https://arxiv.org/abs/2412.12463">
-                    <img src="./static/images/arxiv-logo.svg" style="max-height: 80px">
+                <a href="https://arxiv.org/abs/2405.20319">
+                    <img src="./static/images/arxiv-logo.svg" alt="arXiv" style="max-height: 80px">
                 </a>
-                <a href="https://arxiv.org/abs/2412.12463">
+                <a href="https://arxiv.org/abs/2405.20319">
                     <h4> ArXiv </h4>
                 </a>
             </div>
             <div class="column ml-2 mr-2 item">
-                <a href="https://github.com/bardofcodes/parsel/">
-                    <img src="./static/images/github-logo.svg"  style="max-height: 80px">
+                <a href="https://github.com/BardOfCodes/parsel">
+                    <img src="./static/images/github-logo.svg" alt="GitHub code" style="max-height: 80px">
                 </a>
-                <a href="https://github.com/bardofcodes/parsel/">
+                <a href="https://github.com/BardOfCodes/parsel">
                     <h4> Code </h4>
                 </a>
             </div>
             <div class="column ml-2 mr-2 item">
                 <a href="https://dl.acm.org/doi/10.1145/3687922">
-                    <img src="./static/images/acm.svg" style="max-height: 80px">
+                    <img src="./static/images/acm.svg" alt="ACM Digital Library" style="max-height: 80px">
                 </a>
                 <a href="https://dl.acm.org/doi/10.1145/3687922">
                     <h4> ACM DL </h4>
                 </a>
             </div>
           </div>
+          <p class="mt-4">
+            <a href="https://github.com/BardOfCodes/parsel/blob/main/docs/INSTALL.md">Installation</a>
+            · <a href="https://github.com/BardOfCodes/parsel/blob/main/docs/HUGGING_FACE.md">Edit programs and data release</a>
+            · <a href="https://github.com/BardOfCodes/parsel/blob/main/docs/INPUTS.md">Source-data requirements</a>
+          </p>
           </div>
         </div>
       </div>
@@ -140,7 +131,7 @@
       <div class="box m-1 p-1 is-vcentered">
       <figure class="image">
       <!-- <iframe src="./static/pdfs/rewriters.pdf" loading="lazy" title="PDF-file" scrolling="no" border="0" width=100% frameborder="no" allowfullscreen framespacing="0"></iframe> -->
-      <img src="./static/images/teaser.png" >
+      <img src="./static/images/teaser.png" alt="Language-driven parametric edits and composable shape variations">
       </figure> 
       </div>
     </div>
@@ -188,7 +179,7 @@ The ability to edit 3D assets from natural language presents a compelling paradi
           <figure class="image">
           <!-- <iframe src="./static/pdfs/rewriters.pdf" loading="lazy" title="PDF-file" scrolling="no" border="0" width=100% frameborder="no" allowfullscreen framespacing="0"></iframe> -->
           <div class="item item-steve">
-            <video poster="" id="steve" controls muted playsinline height="100%">
+            <video id="steve" controls muted playsinline preload="metadata" aria-label="Editing shapes with ParSEL programs in Blender">
                 <source src="./static/videos/real_time_shape_variations.mp4"
                         type="video/mp4">
                 </video>
@@ -230,7 +221,7 @@ The ability to edit 3D assets from natural language presents a compelling paradi
           <div class="box m-1 p-1 is-vcentered">
           <figure class="image">
           <!-- <iframe src="./static/pdfs/rewriters.pdf" loading="lazy" title="PDF-file" scrolling="no" border="0" width=100% frameborder="no" allowfullscreen framespacing="0"></iframe> -->
-          <img src="./static/gifs/DSL example.gif" >
+          <img src="./static/gifs/DSL%20example.gif" alt="A parameterized chair-width edit and its DSL program" loading="lazy">
           </figure> 
           </div>
           <h2 class="subtitle has-text-justified is-size-6"> A parameterized edit (corresonding to "widen the chair") and its editing program in our DSL. Edit Operators in our DSL help parameterize the magnitude of each edit (`amt`) with the user controlled parameter X. </h2>
@@ -256,7 +247,7 @@ The ability to edit 3D assets from natural language presents a compelling paradi
           <div class="box m-1 p-1 is-vcentered">
           <figure class="image">
           <!-- <iframe src="./static/pdfs/rewriters.pdf" loading="lazy" title="PDF-file" scrolling="no" border="0" width=100% frameborder="no" allowfullscreen framespacing="0"></iframe> -->
-          <img src="./static/images/overview.png" >
+          <img src="./static/images/overview.png" alt="ParSEL pipeline from language request to parameterized editing program" loading="lazy">
           </figure> 
           </div>
           <h2 class="subtitle has-text-justified is-size-6"> <b>System Overview</b>: ParSEL converts a natural language edit request into a editing program by coupling the natural language abilities of LLMs with the algebraic reasoning capabilities of a CAS.</h2>
@@ -274,7 +265,7 @@ The ability to edit 3D assets from natural language presents a compelling paradi
         <div class="box m-1 p-1 is-vcentered">
         <figure class="image">
         <!-- <iframe src="./static/pdfs/rewriters.pdf" loading="lazy" title="PDF-file" scrolling="no" border="0" width=100% frameborder="no" allowfullscreen framespacing="0"></iframe> -->
-        <img src="./static/gifs/AEP.gif" >
+        <img src="./static/gifs/AEP.gif" alt="Analytical edit propagation restores the chair seat-to-leg attachment" loading="lazy">
         </figure> 
         </div>
         <h2 class="subtitle has-text-justified is-size-6"> One of our key contributions is <span class="dnerf">Analytical Edit Propagation (AEP)</span> - we search for additional edit operators to restore inter-part relations. In the above example, on editing the seat its attachment relation with the leg is broken. Consequently, <span class="dnerf">AEP</span> searches for edits which restore this relation.</h2>
@@ -292,7 +283,7 @@ The ability to edit 3D assets from natural language presents a compelling paradi
         <div class="box box-white m-1 p-1 is-vcentered">
           <figure class="image">
             <!-- <iframe src="./static/pdfs/rewriters.pdf" loading="lazy" title="PDF-file" scrolling="no" border="0" width=100% frameborder="no" allowfullscreen framespacing="0"></iframe> -->
-    <img src="./static/images/qualitative.png" >
+    <img src="./static/images/qualitative.png" alt="Comparison of ParSEL edits with alternative methods on 3DCoMPaT++ shapes" loading="lazy">
       </figure> 
       </div>
       <h2 class="subtitle has-text-centered is-size-6"><b>Evaluation on 3DCoMPaT++ dataset</b>: Alternate formulations fail to generate programs that align with the user's edit intent.</h2>
@@ -308,7 +299,7 @@ The ability to edit 3D assets from natural language presents a compelling paradi
         <div class="box box-white m-1 p-1 is-vcentered">
           <figure class="has-text-centered is-centered">
             <!-- <iframe src="./static/pdfs/rewriters.pdf" loading="lazy" title="PDF-file" scrolling="no" border="0" width=100% frameborder="no" allowfullscreen framespacing="0"></iframe> -->
-    <img src="./static/gifs/proxydural.gif" >
+    <img src="./static/gifs/proxydural.gif" alt="Multiple composable editing programs produce parametric shape variations" loading="lazy">
       </figure> 
       </div>
       <h2 class="subtitle has-text-justified is-size-6">The edits generated from our system are composable - using multiple editing requests together we can create (approximately) parametric models of arbitrary 3D Shapes! </h2>
@@ -353,7 +344,7 @@ The ability to edit 3D assets from natural language presents a compelling paradi
       <h2 class="title is-3">Acknowledgement</h2>
       <div class="content has-text-justified is-size-6">
         <p>
-          We would like to thank the anonymous reviewers for their helpful suggestions. This work was funded in parts by NSF award #1941808 and a Brown University Presidential Fellowship. Daniel Ritchie is an advisor to Geopipe and owns equity in the company. Geopipe is a start-up that is developing 3D technology to build immersive virtual copies of the real world with applications in various fields, including games and architecture.
+          We would like to thank the anonymous reviewers for their helpful suggestions. This work was funded in parts by NSF award #1941808 and a Brown University Presidential Fellowship. When this project was created, Daniel Ritchie was an advisor to Geopipe and held equity in the company.
         </p>
       </div>
     </div>

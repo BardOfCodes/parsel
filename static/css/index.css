@@ -15,6 +15,12 @@ body {
     font-weight: 400;
 }
 
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .publication-authors {
     /* font-family: 'Roboto-condensed', sans-serif; */
 }
