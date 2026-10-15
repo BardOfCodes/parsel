@@ -192,8 +192,8 @@ class Prompter:
             shape,
             "relation_state",
         )
-        if type(relation_state) is not int or relation_state not in {1, 2, 3}:
-            raise PromptSyntaxError("relation_state must be 1, 2, or 3")
+        if type(relation_state) is not int or relation_state not in {0, 1}:
+            raise PromptSyntaxError("relation_state must be 0 or 1")
         return relation_state
 
     def _call_and_parse(self, shape, messages, parse):
